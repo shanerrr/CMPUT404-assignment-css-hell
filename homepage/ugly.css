@@ -1,0 +1,10 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+  background-color: red;
+}
+
+.inital::first-letter {
+  font-size: 5em;
+  font-weight: bold;
+  color: brown;
+}
