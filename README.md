@@ -19,7 +19,7 @@ git clone https://github.com/abramhindle/CMPUT404-assignment-css-hell.git
 - H1's are centered and bolded
 - All othere headers are slightly lighter in colour, centered, and not bold
 - Added margin to paragraphs to make it more readable and seperate each other.
-- Images when hovered will scale 130% their normal size.
+- Images when hovered will scale 130% their normal size and have a sepia filter.
 - Image captions font sizes are smaller and less darker
 - Hyperlinks are gray when not visited, but red when visitied.
 

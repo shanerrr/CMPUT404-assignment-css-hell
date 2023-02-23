@@ -39,6 +39,7 @@ p {
 img {
   scale: 1;
   transition: transform 0.25;
+  filter: saturate(0%) sepia(100%) contrast(150%) saturate(150%);
 }
 
 img:hover {
