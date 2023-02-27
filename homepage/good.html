@@ -14,115 +14,148 @@
     <link rel="stylesheet" href="./good.css" />
   </head>
   <body>
-    <main class="container mx-auto">
-      <section class="h-screen flex flex-col justify-center">
-        <span class="text-sm text-white">👋🏽 Hello, my name is </span>
-        <h1 class="text-7xl text-[#B1C7F6] font-semibold my-2">
-          Shane Goonasekera
-        </h1>
-        <h2 class="text-6xl text-white">I ❤️ to program!</h2>
-        <p class="text-white text-xl my-3">
-          I'm currently in my last year of my computer science degree with a
-          couple years <br />
-          of experience developeing mainly apps for the web. <br />
-          I want to keep building apps for the web
-        </p>
-      </section>
+    <main class="relative grid grid-cols-3">
+      <div class="px-8 col-span-2">
+        <section class="h-screen flex flex-col justify-center">
+          <span class="text-sm text-white">👋🏽 Hello, my name is </span>
+          <h1 class="text-7xl text-[#B1C7F6] font-semibold my-2">
+            Shane Goonasekera
+          </h1>
+          <h2 class="text-6xl text-white">I ❤️ to program!</h2>
+          <p class="text-white text-xl my-3">
+            I'm currently in my last year of my computer science degree with a
+            couple years <br />
+            of experience developing mainly apps for the web. <br />
+            I want to keep building apps for the web
+          </p>
+        </section>
 
-      <section id="about" class="flex h-screen flex-col justify-center py-24">
-        <div>
-          <h2
-            class="mb-16 text-[#B1C7F6] flex items-center whitespace-nowrap text-2xl font-extrabold before:mr-4 before:font-handwriting before:text-2xl before:font-semibold before:text-white before:content-['1.'] after:ml-4 after:w-full after:border after:border-white/50 sm:text-3xl"
-          >
-            About Me 🧑
-          </h2>
-          <div class="grid grid-cols-3 gap-x-4 gap-y-8 sm:gap-y-16 lg:gap-x-16">
-            <div
-              class="relative col-span-3 mx-auto aspect-square w-1/2 rounded-full overflow-hidden md:col-span-1 md:w-5/6"
+        <section id="about" class="flex h-screen flex-col justify-center py-24">
+          <div>
+            <h2
+              class="mb-16 text-[#B1C7F6] flex items-center whitespace-nowrap text-2xl font-extrabold before:mr-4 before:font-handwriting before:text-2xl before:font-semibold before:text-white before:content-['1.'] after:ml-4 after:w-full after:border after:border-white/50 sm:text-3xl"
             >
-              <img
-                class="rounded-full object-cover object-top"
-                alt="Profile Picture"
-                src="./profile.webp"
-              />
-            </div>
-            <div class="col-span-3 sm:text-lg md:col-span-2 md:text-xl">
-              <p class="text-lg md:text-xl text-white">
-                Hey, what&apos;s up! My name is Shane, and I&apos;ve been
-                building software since I was a kid. I started off making simple
-                games with simple game engines to building stuff for the
-                internet. My main focus currently is full-stack web development,
-                but I love to learn just about anything.
-                <br />
-                <br />
-                Right now, I am finishing up my last year of my undergraduate
-                degree, but I have had the privilege of working at different
-                startups as an intern and gaining that real-world experience. I
-                plan to continue to work and help startups start 😊.
-                <br />
-                <br />
-              </p>
-              <div class="grid grid-cols-3">
-                <h2 class="col-span-3 text-lg md:text-xl text-[#B1C7F6]">
-                  Here are a few technologies I&apos;ve been working with
-                  recently:
-                </h2>
-                <ul
-                  class="text-[#B1C7F6] col-span-3 mt-5 grid grid-cols-2 text-sm sm:text-base xl:col-span-2 [&>li]:mb-4 [&>li]:before:mr-2 [&>li]:before:text-white [&>li]:before:content-['▹']"
-                >
-                  <li>TypeScript/JavaScript</li>
-                  <li>React</li>
-                  <li>Node.js</li>
-                  <li>GraphQL</li>
-                  <li>Express.js</li>
-                  <li>TailwindCSS</li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <section
-        id="expereince"
-        class="flex h-screen flex-col justify-center py-24"
-      >
-        <div>
-          <h2
-            class="mb-16 text-[#B1C7F6] flex items-center whitespace-nowrap text-2xl font-extrabold before:mr-4 before:font-handwriting before:text-2xl before:font-semibold before:text-white before:content-['2.'] after:ml-4 after:w-full after:border after:border-white/50 sm:text-3xl"
-          >
-            Experience 💼
-          </h2>
-          <div class="flex flex-col gap-8">
-            <div class="flex gap-5">
-              <div>
-                <img class="w-24 h-24" src="./gigturbo.webp" alt="gigturbo" />
-              </div>
-              <div>
-                <h1 class="text-4xl text-white font-bold">Gigturbo</h1>
-                <p class="text-xl text-[#B1C7F6]">
-                  Worked with React and helped build their onboarding
-                </p>
-              </div>
-            </div>
-            <div class="flex gap-5">
-              <div>
+              About Me 🧑
+            </h2>
+            <div
+              class="grid grid-cols-3 gap-x-4 gap-y-8 sm:gap-y-16 lg:gap-x-16"
+            >
+              <div
+                class="relative col-span-3 mx-auto aspect-square w-1/2 rounded-full overflow-hidden md:col-span-1 md:w-5/6"
+              >
                 <img
-                  class="w-24 h-24"
-                  src="./laundrywell.webp"
-                  alt="gigturbo"
+                  class="rounded-full object-cover object-top"
+                  alt="Profile Picture"
+                  src="./profile.webp"
                 />
               </div>
-              <div>
-                <h1 class="text-4xl text-white font-bold">LaundryWell</h1>
-                <p class="text-xl text-[#B1C7F6]">
-                  Worked with React and helped build their order booking systems
+              <div class="col-span-3 sm:text-lg md:col-span-2 md:text-xl">
+                <p class="text-lg md:text-xl text-white">
+                  Hey, what&apos;s up! My name is Shane, and I&apos;ve been
+                  building software since I was a kid. I started off making
+                  simple games with simple game engines to building stuff for
+                  the internet. My main focus currently is full-stack web
+                  development, but I love to learn just about anything.
+                  <br />
+                  <br />
+                  Right now, I am finishing up my last year of my undergraduate
+                  degree, but I have had the privilege of working at different
+                  startups as an intern and gaining that real-world experience.
+                  I plan to continue to work and help startups start 😊.
+                  <br />
+                  <br />
                 </p>
+                <div class="grid grid-cols-3">
+                  <h2 class="col-span-3 text-lg md:text-xl text-[#B1C7F6]">
+                    Here are a few technologies I&apos;ve been working with
+                    recently and what I can do for a potential employer:
+                  </h2>
+                  <ul
+                    class="text-[#B1C7F6] col-span-3 mt-5 grid grid-cols-2 text-sm sm:text-base xl:col-span-2 [&>li]:mb-4 [&>li]:before:mr-2 [&>li]:before:text-white [&>li]:before:content-['▹']"
+                  >
+                    <li>TypeScript/JavaScript</li>
+                    <li>React</li>
+                    <li>Node.js</li>
+                    <li>GraphQL</li>
+                    <li>Express.js</li>
+                    <li>TailwindCSS</li>
+                  </ul>
+                </div>
               </div>
             </div>
           </div>
+        </section>
+
+        <section
+          id="expereince"
+          class="flex h-screen flex-col justify-center py-24"
+        >
+          <div>
+            <h2
+              class="mb-16 text-[#B1C7F6] flex items-center whitespace-nowrap text-2xl font-extrabold before:mr-4 before:font-handwriting before:text-2xl before:font-semibold before:text-white before:content-['2.'] after:ml-4 after:w-full after:border after:border-white/50 sm:text-3xl"
+            >
+              Experience 💼
+            </h2>
+            <div class="flex flex-col gap-8">
+              <div class="flex gap-5">
+                <div>
+                  <img class="w-24 h-24" src="./gigturbo.webp" alt="gigturbo" />
+                </div>
+                <div>
+                  <h1 class="text-4xl text-white font-bold">Gigturbo</h1>
+                  <p class="text-xl text-[#B1C7F6]">
+                    Worked with React and helped build their onboarding
+                  </p>
+                </div>
+              </div>
+              <div class="flex gap-5">
+                <div>
+                  <img
+                    class="w-24 h-24"
+                    src="./laundrywell.webp"
+                    alt="gigturbo"
+                  />
+                </div>
+                <div>
+                  <h1 class="text-4xl text-white font-bold">LaundryWell</h1>
+                  <p class="text-xl text-[#B1C7F6]">
+                    Worked with React and helped build their order booking
+                    systems
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <div class="w-full relative p-8 bg-[#B1C7F6]">
+        <div
+          id="important"
+          class="flex h-full w-max flex-col justify-center fixed"
+        >
+          <div>
+            <h2
+              class="mb-8 flex items-center whitespace-nowrap text-2xl font-extrabold sm:text-3xl"
+            >
+              Cool things about me
+            </h2>
+            <div>
+              <ul class="list-disc">
+                <li>I like to code (duh)</li>
+                <li>
+                  I have two years building Angular apps and three years
+                  building React apps
+                </li>
+                <li>I'm building a travel planner app (React and GraphQL)</li>
+                <li>I've built several games on different engines</li>
+                <li>I like to play football</li>
+                <li>I hate leetcode :(</li>
+              </ul>
+            </div>
+          </div>
         </div>
-      </section>
+      </div>
     </main>
   </body>
 </html>
